@@ -1,12 +1,15 @@
 {
+  "name": "customerReview",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
   "dependencies": {
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "mongoose": "^8.13.2",
-    "nodemon": "^3.1.9",
-    "script": {
-      "start": "node server"
-    }
+    "nodemon": "^3.1.9"
   }
 }
